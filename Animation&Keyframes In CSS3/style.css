@@ -1,0 +1,30 @@
+/*
+animation-name: ;
+animation-duration: ;
+animation-iteration-count: ;
+animation-timing-function: ;
+
+*/
+
+
+/* keyframes */
+
+
+
+
+div {
+    width: 100px;
+    height: 50px;
+    background: #00f;
+    position:absolute;
+    animation: ChangeColor 2s infinite ease-in-out ;
+
+}
+
+/* @keyframes animationName { keyframes-selectors { style css } } */
+
+@keyframes ChangeColor {
+  0%{left:0}
+  100%{left: 100px}
+}
+

@@ -1,0 +1,31 @@
+div 
+{
+    width: 200px;
+    height: 200px;
+    background-color:#DDD;
+    position: relative;
+    overflow: hidden;
+}
+p 
+{
+    width: 200px;
+    height: 200px;
+    background: rgba(0,0,0,0.5);
+    position:absolute;
+    margin: 0;
+   
+    right:200px;
+    transition : all 0.5s ease-in-out;
+    color:#fff;
+    text-align: center;
+    
+
+ 
+
+
+}
+div:hover p 
+{
+    right: 0;
+    
+}
